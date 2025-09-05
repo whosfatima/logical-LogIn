@@ -41,5 +41,19 @@ form button {
   border: 2px solid rgb(39, 212, 33);
 }
 .result {
-    
+    border: 1px dotted gray;
+    display: none;
+    margin-top: 20px;
+    padding: 10px 6rem;
+    border-radius: 10px;
+    /* width: 300px; */
+}
+button{
+    cursor: pointer;
+}
+p{
+    text-align: left;
+    font-size: 14px;
+    color: rgb(146, 3, 3);
+    font-weight: 500;
 }
