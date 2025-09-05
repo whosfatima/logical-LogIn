@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  font-family: Vazirmatn;
+}
+.container {
+  text-align: center;
+  width: 300px;
+  /* border: 1px solid gray; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  padding: 25px 20px;
+  margin: 100px auto 10px;
+  border-radius: 10px;
+}
+form input,
+form button {
+  width: 100%;
+  font-family: Vazirmatn;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  outline: none;
+  text-align: center;
+  border: 1px solid gray;
+}
+
+.errorborder {
+  border: 2px solid rgb(184, 49, 49);
+}
+.succesBorder {
+  border: 2px solid rgb(39, 212, 33);
+}
+.result {
+    
+}
